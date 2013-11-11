@@ -1,15 +1,15 @@
 %define upstream_name    Hash-MoreUtils
-%define upstream_version 0.02
+%define upstream_version 0.04
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Provide the stuff missing in Hash::Util
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Hash/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Hash/Hash-MoreUtils-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test::More)
@@ -46,4 +46,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Sat Dec 25 2010 Shlomi Fish <shlomif@mandriva.org> 0.20.0-1mdv2011.0
 + Revision: 624827
 - import perl-Hash-MoreUtils
+
 
