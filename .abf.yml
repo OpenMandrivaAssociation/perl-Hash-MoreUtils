@@ -1,4 +1,5 @@
 removed_sources:
   Hash-MoreUtils-0.02.tar.gz: a15d0638d3f9614a7f4f306a776062081407c73f
-sources:
   Hash-MoreUtils-0.04.tar.gz: d905c55c05a1d130b4ac0af65d71dbbdddfea2b3
+sources:
+  Hash-MoreUtils-0.05.tar.gz: b1502ff9d2e88504ed315d2aba5452fb743cebed

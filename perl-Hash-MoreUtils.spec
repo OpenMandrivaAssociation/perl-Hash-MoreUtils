@@ -1,5 +1,5 @@
 %define upstream_name    Hash-MoreUtils
-%define upstream_version 0.04
+%define upstream_version 0.05
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -46,5 +46,6 @@ perl Build.PL installdirs=vendor
 * Sat Dec 25 2010 Shlomi Fish <shlomif@mandriva.org> 0.20.0-1mdv2011.0
 + Revision: 624827
 - import perl-Hash-MoreUtils
+
 
 
