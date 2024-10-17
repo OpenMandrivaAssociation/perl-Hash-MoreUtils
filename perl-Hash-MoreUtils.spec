@@ -8,7 +8,7 @@ Release:	3
 Summary:	Provide the stuff missing in Hash::Util
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Hash/Hash-MoreUtils-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
