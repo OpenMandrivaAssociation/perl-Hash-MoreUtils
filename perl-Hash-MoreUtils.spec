@@ -1,15 +1,15 @@
 %define upstream_name    Hash-MoreUtils
-%define upstream_version 0.05
+%define upstream_version 0.06
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Provide the stuff missing in Hash::Util
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Hash/Hash-MoreUtils-%{upstream_version}.tar.gz
+Url:		https://github.com/perl5-utils/Hash-MoreUtils
+Source0:	https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Hash-MoreUtils-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test::More)
