@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	0.06
-Release:	4
+Release:	5
 
 Summary:	Provide the stuff missing in Hash::Util
 License:	GPL+ or Artistic
@@ -24,16 +24,16 @@ commonly-used functionality for hashes.
 %setup -q -n Hash-MoreUtils-0.06
 
 %build
-perl Build.PL installdirs=vendor
-./Build
+perl Makefile.PL INSTALLDIRS=vendor
+%make_build
 
 %check
 # soft: do not fail package on test failures
 set +e
-./Build test
+make test || :
 
 %install
-./Build install destdir=%{buildroot}
+%make_install
 
 %files
 %doc META.yml Changes README
