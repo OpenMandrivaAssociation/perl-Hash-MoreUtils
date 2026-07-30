@@ -9,7 +9,7 @@ Summary:	Provide the stuff missing in Hash::Util
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/perl5-utils/Hash-MoreUtils
-Source0:	https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Hash-MoreUtils-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Hash-MoreUtils-0.06.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test::More)
@@ -37,15 +37,4 @@ perl Build.PL installdirs=vendor
 %doc META.yml Changes README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
-
-%changelog
-* Sat Apr 23 2011 Funda Wang <fwang@mandriva.org> 0.20.0-2mdv2011.0
-+ Revision: 657780
-- rebuild for updated spec-helper
-
-* Sat Dec 25 2010 Shlomi Fish <shlomif@mandriva.org> 0.20.0-1mdv2011.0
-+ Revision: 624827
-- import perl-Hash-MoreUtils
-
-
 
