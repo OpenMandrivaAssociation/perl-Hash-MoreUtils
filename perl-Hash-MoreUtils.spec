@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	0.06
-Release:	5
+Release:	6
 
 Summary:	Provide the stuff missing in Hash::Util
 License:	GPL+ or Artistic
@@ -36,7 +36,7 @@ make test || :
 %make_install
 
 %files
-%doc META.yml Changes README
+%doc META.yml Changes
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
 
