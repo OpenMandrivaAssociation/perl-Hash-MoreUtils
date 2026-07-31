@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	0.06
-Release:	38
+Release:	39
 
 Summary:	Provide the stuff missing in Hash::Util
 License:	GPL+ or Artistic
