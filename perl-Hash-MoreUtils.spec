@@ -3,13 +3,14 @@
 
 Name:		perl-%{upstream_name}
 Version:	0.06
-Release:	47
+Release:	48
 
 Summary:	Provide the stuff missing in Hash::Util
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/perl5-utils/Hash-MoreUtils
 Source0:	https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Hash-MoreUtils-0.06.tar.gz
+BuildRequires:	make
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Test::More)
